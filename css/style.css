@@ -1,0 +1,184 @@
+body {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+image {
+  max-width: 100%;
+}
+
+title {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  border-style: none;
+  padding: 13px 33px;
+  background: #e3b873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  transition: opacity 0.3s ease;
+
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* header */
+
+.header {
+  background-color: #131313;
+  padding: 24px 0 22px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #e3b873;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+
+.menu {
+  display: flex;
+  gap: 47px;
+}
+
+.menu__item {
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.menu__item:first-child {
+  color: #e3b873;
+}
+
+.tel {
+  color: #e3b873;
+  font-size: 11px;
+  text-decoration-line: underline;
+}
+
+.button__request-a-call {
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.button__request-a-call:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* Hero section */
+
+.hero {
+  background-image: url(/image/hero-background.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 707px;
+  position: relative;
+}
+
+.hero__overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero__container {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  padding-top: 194px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.title_rostov {
+  display: inline;
+  color: #e3b873;
+}
+
+.subtitle {
+  margin: 19px 0 41px;
+  font-size: 22px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.button__calculate-the-cost {
+  padding: 20px 42px;
+}
+
+.button__submit-your-application {
+  padding: 19px 22px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background-color: inherit;
+}
+
+.hero__content-box {
+  max-width: 514px;
+  margin-left: 154px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__button-box {
+  display: flex;
+  gap: 20px;
+}
