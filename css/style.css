@@ -133,6 +133,7 @@ h1 {
 }
 
 .hero__container {
+  max-width: 1171px;
   position: relative;
   z-index: 1;
 }
@@ -173,7 +174,6 @@ h1 {
 
 .hero__content-box {
   max-width: 514px;
-  margin-left: 154px;
   display: flex;
   flex-direction: column;
 }
