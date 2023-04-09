@@ -213,7 +213,7 @@ h1 {
 /* Решил реализовать через дополнительный элемент,
  который можно будет накладывать на каждый элемент слайдера */
 
-.project-list__item_active {
+.sliderLink_active {
   color: #e3b873;
   border-bottom: 1px solid #e3b873;
   padding-bottom: 7px;
@@ -275,20 +275,21 @@ h1 {
   gap: 29px;
 }
 
-.switch-point-wrapper {
+.switchPoint-wrapper {
   display: flex;
   gap: 17.5px;
   align-items: center;
 }
 
-.switch-point {
+.switchPoint {
   width: 10px;
   height: 10px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 30px;
+  cursor: pointer;
 }
 
-.switch-point_active {
+.switchPoint_active {
   width: 10px;
   height: 10px;
   background: #ffffff;

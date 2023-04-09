@@ -72,13 +72,13 @@
 
       <section class="complited-projects">
         <div class="container complited-projects__container">
-          <div class="complited-projects__wrapper">
+          <div class="complited-projects__wrapper slider">
             <ul class="project-list">
-              <li class="project-list__item project-list__item_active">
+              <li class="project-list__item sliderLink sliderLink_active">
                 Rostov-on-Don, Admiral
               </li>
-              <li class="project-list__item">Sochi Thieves</li>
-              <li class="project-list__item">Rostov-on-Don Patriotic</li>
+              <li class="project-list__item sliderLink">Sochi Thieves</li>
+              <li class="project-list__item sliderLink">Rostov-on-Don Patriotic</li>
             </ul>
             <div class="complited-projects__content-holder">
               <h2 class="title complited-projects__title">
@@ -93,17 +93,19 @@
               <div class="desc">
                 <div class="desс__box">
                   <h3 class="title desc-title">City:</h3>
-                  <span class="desc-options"
+                  <span class="desc-options slider__city"
                     >Rostov-on-Don <br />
                     LCD admiral</span
                   >
                 </div>
                 <div class="desc__box">
                   <h3 class="title desc-title">apartment area:</h3>
-                  <span class="desc-options">81 m2</span>
+                  <span class="desc-options slider__area">81 m2</span>
                 </div>
                 <div class="desc__box">
-                  <h3 class="title desc-title">Repair time:</h3>
+                  <h3 class="title desc-title slider__timeRepair">
+                    Repair time:
+                  </h3>
                   <span class="desc-options">3.5 months</span>
                 </div>
                 <div class="desc__box">
@@ -112,19 +114,19 @@
                 </div>
               </div>
               <div class="complited-projects__switch-widget">
-                <button class="switch-btn">
+                <button class="switch-btn slider__prev-button">
                   <img
                     src="/image/projects/arrow-left.svg"
                     alt="arrow-left"
                     class="switch-left-svg"
                   />
                 </button>
-                <div class="switch-point-wrapper">
-                  <div class="switch-point switch-point_active"></div>
-                  <div class="switch-point"></div>
-                  <div class="switch-point"></div>
+                <div class="switchPoint-wrapper">
+                  <div class="switchPoint switchPoint_active"></div>
+                  <div class="switchPoint"></div>
+                  <div class="switchPoint"></div>
                 </div>
-                <button class="switch-btn">
+                <button class="switch-btn slider__next-button">
                   <img
                     src="/image/projects/arrow-right.svg"
                     alt="arrow-right"
@@ -134,9 +136,9 @@
               </div>
             </div>
             <img
-              src="/image/projects/project-example.png"
+              src=""
               alt=""
-              class="complited-projects__example-img"
+              class="complited-projects__example-img slider__image"
             />
           </div>
         </div>
@@ -273,5 +275,6 @@
         </div>
       </section>
     </main>
+    <script src="/slider.js"></script>
   </body>
 </html>
